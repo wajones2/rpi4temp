@@ -1,0 +1,8 @@
+#! /bin/zsh
+
+CURDIR=$(pwd)
+
+echo "SHELL=/bin/zsh\n* * * * * cd $CURDIR/data && vcgencmd measure_temp >> x2temp.txt && date >> x2temp.txt" > crontab_configuration.txt
+
+python create_x2database.py
+

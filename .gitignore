@@ -1,0 +1,15 @@
+# Files #
+#################
+.DS_Store
+
+data/x2cfmap.db  
+data/x2temp.txt
+
+# Directories #
+#################
+__pycache__
+.Trashes
+.Spotlight-V100
+
+ignored/
+venv/
